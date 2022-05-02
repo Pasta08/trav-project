@@ -19,7 +19,7 @@ const Cards = () => {
               src="images/img-2.jpg"
               text="Travel through the Islands of Bali in a Private Cruise"
               label="Adventure"
-              path="/services"
+              path="/products"
             />
           
           </ul>
