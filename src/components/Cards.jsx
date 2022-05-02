@@ -6,9 +6,9 @@ const Cards = () => {
   return (
     <div className="cards">
       <h1>Check out this epic destinations</h1>
-      <div className="cards-container">
-        <div className="cards-wrapper">
-          <ul className="cards-item">
+      <div className="cards__container">
+        <div className="cards__wrapper">
+          <ul className="cards__items">
             <CardItem
               src="images/img-9.jpg"
               text="Explore the hidden waterfalls deep inside the Amazon Jungle"
@@ -21,8 +21,10 @@ const Cards = () => {
               label="Adventure"
               path="/services"
             />
+          
           </ul>
-          <ul className="cards-items">
+          
+          <ul className="cards__items">
             <CardItem
               src="images/img-3.jpg"
               text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"

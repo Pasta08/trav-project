@@ -3,13 +3,17 @@ import { Link } from "react-router-dom";
 function CardItem({ src, text, label, path }) {
   return (
     <>
-      <li className="cards-item">
-        <Link to={path} className="cards-item-link">
-          <figure className="cards-item-pic-wrap" data-category={label}>
-            <img src={src} alt="Travel Image" className="cards-item-img" />
+      <li className='cards__item'>
+        <Link className='cards__item__link' to={path}>
+          <figure className='cards__item__pic-wrap' data-category={label}>
+            <img
+              className='cards__item__img'
+              alt='Travel Image'
+              src={src}
+            />
           </figure>
-          <div className="cards-item-info">
-            <h5 className="cards-item-text">{text}</h5>
+          <div className='cards__item__info'>
+            <h5 className='cards__item__text'>{text}</h5>
           </div>
         </Link>
       </li>
